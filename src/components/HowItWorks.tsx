@@ -1,5 +1,4 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
 
 interface HowItWorksProps {
   onScrollToPlans?: () => void;
@@ -89,17 +88,6 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onScrollToPlans }) => {
               </ul>
             </div>
           ))}
-        </div>
-
-        {/* Teal CTA Button */}
-        <div className="mt-10 sm:mt-14 flex justify-center">
-          <button
-            onClick={onScrollToPlans}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-9 py-4 bg-[#0f766e] hover:bg-[#115e59] active:bg-[#134e4a] text-white font-bold text-base sm:text-lg rounded-xl shadow-lg shadow-teal-900/20 hover:shadow-teal-900/30 transition-all duration-150 cursor-pointer group"
-          >
-            <span>QUERO ACESSAR OS 120 GUIAS</span>
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </button>
         </div>
 
       </div>

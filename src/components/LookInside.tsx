@@ -9,35 +9,35 @@ export interface InsideMaterialItem {
 }
 
 export const INSIDE_MATERIAL_ITEMS: InsideMaterialItem[] = [
-  { id: '01', title: 'Área de interesse e linha virtual', image: '/dentro-material/item-01.png', fallback: 'https://i.postimg.cc/cr0LsvXQ/Area-de-interesse-e-linha-virtual-25.png' },
-  { id: '02', title: 'Armazenamento HDD, SSD e cartão', image: '/dentro-material/item-02.png', fallback: 'https://i.postimg.cc/yJM72xD4/Armazenamento-HDD-SSD-e-cartao-12.png' },
-  { id: '03', title: 'Áudio em câmeras, microfone e captação', image: '/dentro-material/item-03.png', fallback: 'https://i.postimg.cc/bG7q4rZq/Audio-em-cameras-microfone-e-captacao-3.png' },
-  { id: '04', title: 'Banda Ethernet e largura de banda', image: '/dentro-material/item-04.png', fallback: 'https://i.postimg.cc/67kBFq84/Banda-Ethernet-e-largura-de-banda-9.png' },
-  { id: '05', title: 'Bateria de backup: função e limites', image: '/dentro-material/item-05.png', fallback: 'https://i.postimg.cc/xJL9QQm8/Bateria-de-backup-funcao-e-limites-18.png' },
-  { id: '06', title: 'Botão de pânico e acionadores', image: '/dentro-material/item-06.png', fallback: 'https://i.postimg.cc/R6wvmmtJ/Botao-de-panico-e-acionadores-17.png' },
-  { id: '07', title: 'Caixa de passagem e conexões organizadas', image: '/dentro-material/item-07.png', fallback: 'https://i.postimg.cc/YhMCpv8J/Caixa-de-passagem-e-conexoes-organizadas-26.png' },
-  { id: '08', title: 'Checklist visual: reconheça o equipamento', image: '/dentro-material/item-08.png', fallback: 'https://i.postimg.cc/TKP2DBzH/Checklist-visual-reconheca-o-equipamento-30.png' },
-  { id: '09', title: 'Como diferenciar BNC, RJ45 e bornes', image: '/dentro-material/item-09.png', fallback: 'https://i.postimg.cc/xcn10XtL/Como-diferenciar-BNC-RJ45-e-bornes-27.png' },
-  { id: '10', title: 'Detecção de movimento: vídeo e análise', image: '/dentro-material/item-10.png', fallback: 'https://i.postimg.cc/NK0GHWh0/Deteccao-de-movimento-video-e-analise-24.png' },
-  { id: '11', title: 'DVR: canais, entradas e compatibilidade', image: '/dentro-material/item-11.png', fallback: 'https://i.postimg.cc/YvS2WJc2/DVR-canais-entradas-e-compatibilidade-7.png' },
-  { id: '12', title: 'Endereço IP na rede de câmeras', image: '/dentro-material/item-12.png', fallback: 'https://i.postimg.cc/75LP2pvr/Endereco-IP-na-rede-de-cameras-22.png' },
-  { id: '13', title: 'Entenda o grau de proteção IP', image: '/dentro-material/item-13.png', fallback: 'https://i.postimg.cc/S2cm449z/Entenda-o-grau-de-protecao-IP-5.png' },
-  { id: '14', title: 'Fonte de alimentação: identificação conceitual', image: '/dentro-material/item-14.png', fallback: 'https://i.postimg.cc/hX3Dbpg1/Fonte-de-alimentacao-identificacao-conceitual-19.png' },
-  { id: '15', title: 'FPS e fluidez do vídeo', image: '/dentro-material/item-15.png', fallback: 'https://i.postimg.cc/Z9BTfpK6/FPS-e-fluidez-do-video-11.png' },
-  { id: '16', title: 'Guia de câmeras fixas e PTZ', image: '/dentro-material/item-16.png', fallback: 'https://i.postimg.cc/Pp1dHHDY/Guia-de-cameras-fixas-e-PTZ-4.png' },
-  { id: '17', title: 'H.264, H.265 e compressão de vídeo', image: '/dentro-material/item-17.png', fallback: 'https://i.postimg.cc/0M79vvSf/H-264-H-265-e-compressao-de-video-10.png' },
-  { id: '18', title: 'Iluminação, contraluz e WDR explicados', image: '/dentro-material/item-18.png', fallback: 'https://i.postimg.cc/RJ94VY11/Iluminacao-contraluz-e-WDR-explicados-6.png' },
-  { id: '19', title: 'Interfone, vídeo porteiro e CFTV', image: '/dentro-material/item-19.png', fallback: 'https://i.postimg.cc/Tpf3RKCg/Interfone-video-porteiro-e-CFTV-28.png' },
-  { id: '20', title: 'NVR: câmeras IP e recursos', image: '/dentro-material/item-20.png', fallback: 'https://i.postimg.cc/wty6WLTh/NVR-cameras-IP-e-recursos-8.png' },
-  { id: '21', title: 'ONVIF e compatibilidade entre marcas', image: '/dentro-material/item-21.png', fallback: 'https://i.postimg.cc/7CGxB0Y3/ONVIF-e-compatibilidade-entre-marcas-23.png' },
-  { id: '22', title: 'Privacidade e uso responsável de câmeras', image: '/dentro-material/item-22.png', fallback: 'https://i.postimg.cc/Xp4YVrQF/Privacidade-e-uso-responsavel-de-cameras-29.png' },
-  { id: '23', title: 'Repetidor e alcance do sinal', image: '/dentro-material/item-23.png', fallback: 'https://i.postimg.cc/H8HdsN04/Repetidor-e-alcance-do-sinal-16.png' },
-  { id: '24', title: 'Roteador e rede local no CFTV', image: '/dentro-material/item-24.png', fallback: 'https://i.postimg.cc/06M8tD2Z/Roteador-e-rede-local-no-CFTV-21.png' },
-  { id: '25', title: 'Sensores com fio e sem fio', image: '/dentro-material/item-25.png', fallback: 'https://i.postimg.cc/GTrdhfPz/Sensores-com-fio-e-sem-fio-15.png' },
-  { id: '26', title: 'Switch de rede, portas PoE e tráfego', image: '/dentro-material/item-26.png', fallback: 'https://i.postimg.cc/WDBsxzhB/Switch-de-rede-portas-Po-E-e-trafego-20.png' },
-  { id: '27', title: 'Tipos de sensor de alarme', image: '/dentro-material/item-27.png', fallback: 'https://i.postimg.cc/jnKtd16Z/Tipos-de-sensor-de-alarme-13.png' },
-  { id: '28', title: 'Visão noturna e iluminação', image: '/dentro-material/item-28.png', fallback: 'https://i.postimg.cc/5HhfDyXJ/Visao-noturna-e-iluminacao-2.png' },
-  { id: '29', title: 'Zonas e setores da central', image: '/dentro-material/item-29.png', fallback: 'https://i.postimg.cc/xNYnTZGw/Zonas-e-setores-da-central-14.png' }
+  { id: '01', title: 'Área de interesse e linha virtual', image: '/dentro-material/item-01.webp', fallback: 'https://i.postimg.cc/cr0LsvXQ/Area-de-interesse-e-linha-virtual-25.png' },
+  { id: '02', title: 'Armazenamento HDD, SSD e cartão', image: '/dentro-material/item-02.webp', fallback: 'https://i.postimg.cc/yJM72xD4/Armazenamento-HDD-SSD-e-cartao-12.png' },
+  { id: '03', title: 'Áudio em câmeras, microfone e captação', image: '/dentro-material/item-03.webp', fallback: 'https://i.postimg.cc/bG7q4rZq/Audio-em-cameras-microfone-e-captacao-3.png' },
+  { id: '04', title: 'Banda Ethernet e largura de banda', image: '/dentro-material/item-04.webp', fallback: 'https://i.postimg.cc/67kBFq84/Banda-Ethernet-e-largura-de-banda-9.png' },
+  { id: '05', title: 'Bateria de backup: função e limites', image: '/dentro-material/item-05.webp', fallback: 'https://i.postimg.cc/xJL9QQm8/Bateria-de-backup-funcao-e-limites-18.png' },
+  { id: '06', title: 'Botão de pânico e acionadores', image: '/dentro-material/item-06.webp', fallback: 'https://i.postimg.cc/R6wvmmtJ/Botao-de-panico-e-acionadores-17.png' },
+  { id: '07', title: 'Caixa de passagem e conexões organizadas', image: '/dentro-material/item-07.webp', fallback: 'https://i.postimg.cc/YhMCpv8J/Caixa-de-passagem-e-conexoes-organizadas-26.png' },
+  { id: '08', title: 'Checklist visual: reconheça o equipamento', image: '/dentro-material/item-08.webp', fallback: 'https://i.postimg.cc/TKP2DBzH/Checklist-visual-reconheca-o-equipamento-30.png' },
+  { id: '09', title: 'Como diferenciar BNC, RJ45 e bornes', image: '/dentro-material/item-09.webp', fallback: 'https://i.postimg.cc/xcn10XtL/Como-diferenciar-BNC-RJ45-e-bornes-27.png' },
+  { id: '10', title: 'Detecção de movimento: vídeo e análise', image: '/dentro-material/item-10.webp', fallback: 'https://i.postimg.cc/NK0GHWh0/Deteccao-de-movimento-video-e-analise-24.png' },
+  { id: '11', title: 'DVR: canais, entradas e compatibilidade', image: '/dentro-material/item-11.webp', fallback: 'https://i.postimg.cc/YvS2WJc2/DVR-canais-entradas-e-compatibilidade-7.png' },
+  { id: '12', title: 'Endereço IP na rede de câmeras', image: '/dentro-material/item-12.webp', fallback: 'https://i.postimg.cc/75LP2pvr/Endereco-IP-na-rede-de-cameras-22.png' },
+  { id: '13', title: 'Entenda o grau de proteção IP', image: '/dentro-material/item-13.webp', fallback: 'https://i.postimg.cc/S2cm449z/Entenda-o-grau-de-protecao-IP-5.png' },
+  { id: '14', title: 'Fonte de alimentação: identificação conceitual', image: '/dentro-material/item-14.webp', fallback: 'https://i.postimg.cc/hX3Dbpg1/Fonte-de-alimentacao-identificacao-conceitual-19.png' },
+  { id: '15', title: 'FPS e fluidez do vídeo', image: '/dentro-material/item-15.webp', fallback: 'https://i.postimg.cc/Z9BTfpK6/FPS-e-fluidez-do-video-11.png' },
+  { id: '16', title: 'Guia de câmeras fixas e PTZ', image: '/dentro-material/item-16.webp', fallback: 'https://i.postimg.cc/Pp1dHHDY/Guia-de-cameras-fixas-e-PTZ-4.png' },
+  { id: '17', title: 'H.264, H.265 e compressão de vídeo', image: '/dentro-material/item-17.webp', fallback: 'https://i.postimg.cc/0M79vvSf/H-264-H-265-e-compressao-de-video-10.png' },
+  { id: '18', title: 'Iluminação, contraluz e WDR explicados', image: '/dentro-material/item-18.webp', fallback: 'https://i.postimg.cc/RJ94VY11/Iluminacao-contraluz-e-WDR-explicados-6.png' },
+  { id: '19', title: 'Interfone, vídeo porteiro e CFTV', image: '/dentro-material/item-19.webp', fallback: 'https://i.postimg.cc/Tpf3RKCg/Interfone-video-porteiro-e-CFTV-28.png' },
+  { id: '20', title: 'NVR: câmeras IP e recursos', image: '/dentro-material/item-20.webp', fallback: 'https://i.postimg.cc/wty6WLTh/NVR-cameras-IP-e-recursos-8.png' },
+  { id: '21', title: 'ONVIF e compatibilidade entre marcas', image: '/dentro-material/item-21.webp', fallback: 'https://i.postimg.cc/7CGxB0Y3/ONVIF-e-compatibilidade-entre-marcas-23.png' },
+  { id: '22', title: 'Privacidade e uso responsável de câmeras', image: '/dentro-material/item-22.webp', fallback: 'https://i.postimg.cc/Xp4YVrQF/Privacidade-e-uso-responsavel-de-cameras-29.png' },
+  { id: '23', title: 'Repetidor e alcance do sinal', image: '/dentro-material/item-23.webp', fallback: 'https://i.postimg.cc/H8HdsN04/Repetidor-e-alcance-do-sinal-16.png' },
+  { id: '24', title: 'Roteador e rede local no CFTV', image: '/dentro-material/item-24.webp', fallback: 'https://i.postimg.cc/06M8tD2Z/Roteador-e-rede-local-no-CFTV-21.png' },
+  { id: '25', title: 'Sensores com fio e sem fio', image: '/dentro-material/item-25.webp', fallback: 'https://i.postimg.cc/GTrdhfPz/Sensores-com-fio-e-sem-fio-15.png' },
+  { id: '26', title: 'Switch de rede, portas PoE e tráfego', image: '/dentro-material/item-26.webp', fallback: 'https://i.postimg.cc/WDBsxzhB/Switch-de-rede-portas-Po-E-e-trafego-20.png' },
+  { id: '27', title: 'Tipos de sensor de alarme', image: '/dentro-material/item-27.webp', fallback: 'https://i.postimg.cc/jnKtd16Z/Tipos-de-sensor-de-alarme-13.png' },
+  { id: '28', title: 'Visão noturna e iluminação', image: '/dentro-material/item-28.webp', fallback: 'https://i.postimg.cc/5HhfDyXJ/Visao-noturna-e-iluminacao-2.png' },
+  { id: '29', title: 'Zonas e setores da central', image: '/dentro-material/item-29.webp', fallback: 'https://i.postimg.cc/xNYnTZGw/Zonas-e-setores-da-central-14.png' }
 ];
 
 interface LookInsideProps {
@@ -147,11 +147,18 @@ export const LookInside: React.FC<LookInsideProps> = ({ onScrollToPlans }) => {
                 <img
                   src={item.image}
                   onError={(e) => {
-                    e.currentTarget.src = item.fallback;
+                    if (e.currentTarget.src.endsWith('.webp')) {
+                      e.currentTarget.src = item.image.replace('.webp', '.png');
+                    } else {
+                      e.currentTarget.src = item.fallback;
+                    }
                   }}
                   alt={item.title}
                   className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-300"
                   loading="lazy"
+                  decoding="async"
+                  width={280}
+                  height={392}
                 />
                 
                 {/* Hover overlay hint */}
@@ -184,11 +191,18 @@ export const LookInside: React.FC<LookInsideProps> = ({ onScrollToPlans }) => {
                 <img
                   src={item.image}
                   onError={(e) => {
-                    e.currentTarget.src = item.fallback;
+                    if (e.currentTarget.src.endsWith('.webp')) {
+                      e.currentTarget.src = item.image.replace('.webp', '.png');
+                    } else {
+                      e.currentTarget.src = item.fallback;
+                    }
                   }}
                   alt={item.title}
                   className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-300"
                   loading="lazy"
+                  decoding="async"
+                  width={280}
+                  height={392}
                 />
 
                 {/* Hover overlay hint */}

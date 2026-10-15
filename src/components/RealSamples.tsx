@@ -12,91 +12,91 @@ export const REAL_SAMPLES_LIST: RealSampleItem[] = [
   {
     id: 1,
     title: 'Visão geral de um sistema CFTV',
-    image: '/amostras/amostra-01.png',
+    image: '/amostras/amostra-01.webp',
     fallback: 'https://i.postimg.cc/TYrbDKLX/Visao-geral-de-um-sistema-CFTV-1.png'
   },
   {
     id: 2,
     title: 'Câmera IP: partes e conceitos',
-    image: '/amostras/amostra-02.png',
+    image: '/amostras/amostra-02.webp',
     fallback: 'https://i.postimg.cc/02pSwz6X/Camera-IP-partes-e-conceitos-2.png'
   },
   {
     id: 3,
     title: 'Visão geral da câmera analógica',
-    image: '/amostras/amostra-03.png',
+    image: '/amostras/amostra-03.webp',
     fallback: 'https://i.postimg.cc/kXxSb263/Visao-geral-da-camera-analogica-3.png'
   },
   {
     id: 4,
     title: 'DVR e NVR: diferenças essenciais',
-    image: '/amostras/amostra-04.png',
+    image: '/amostras/amostra-04.webp',
     fallback: 'https://i.postimg.cc/MKyBQncg/DVR-e-NVR-diferencas-essenciais-4.png'
   },
   {
     id: 5,
     title: 'Lentes e campo de visão',
-    image: '/amostras/amostra-05.png',
+    image: '/amostras/amostra-05.webp',
     fallback: 'https://i.postimg.cc/bNQntZDX/Lentes-e-campo-de-visao-5.png'
   },
   {
     id: 6,
     title: 'Guia visual: câmeras dome e bullet',
-    image: '/amostras/amostra-06.png',
+    image: '/amostras/amostra-06.webp',
     fallback: 'https://i.postimg.cc/VLjtCJS3/Guia-visual-cameras-dome-e-bullet-6.png'
   },
   {
     id: 7,
     title: 'Como o sensor PIR detecta movimento',
-    image: '/amostras/amostra-07.png',
+    image: '/amostras/amostra-07.webp',
     fallback: 'https://i.postimg.cc/SNW9MnXP/Como-o-sensor-PIR-detecta-movimento-7.png'
   },
   {
     id: 8,
     title: 'Contato magnético em portas e janelas',
-    image: '/amostras/amostra-08.png',
+    image: '/amostras/amostra-08.webp',
     fallback: 'https://i.postimg.cc/WbMZkdDK/Contato-magnetico-em-portas-e-janelas-8.png'
   },
   {
     id: 9,
     title: 'Central de alarme e seus elementos',
-    image: '/amostras/amostra-09.png',
+    image: '/amostras/amostra-09.webp',
     fallback: 'https://i.postimg.cc/pXDjFm90/Central-de-alarme-e-seus-elementos-9.png'
   },
   {
     id: 10,
     title: 'Sirenes e sinalização para sistemas de alarme',
-    image: '/amostras/amostra-10.png',
+    image: '/amostras/amostra-10.webp',
     fallback: 'https://i.postimg.cc/zXnhgyLP/Sirenes-e-sinalizacao-para-sistemas-de-alarme-10.png'
   },
   {
     id: 11,
     title: 'Reconhecimento visual de cabos e conectores',
-    image: '/amostras/amostra-11.png',
+    image: '/amostras/amostra-11.webp',
     fallback: 'https://i.postimg.cc/RVctHW3X/Reconhecimento-visual-de-cabos-e-conectores-11.png'
   },
   {
     id: 12,
     title: 'PoE: dados e energia no mesmo cabo',
-    image: '/amostras/amostra-12.png',
+    image: '/amostras/amostra-12.webp',
     fallback: 'https://i.postimg.cc/sDpWhMBP/Po-E-dados-e-energia-no-mesmo-cabo-12.png'
   },
   {
     id: 13,
     title: 'Gravação e armazenamento de imagens',
-    image: '/amostras/amostra-13.png',
+    image: '/amostras/amostra-13.webp',
     fallback: 'https://i.postimg.cc/Qxp7TFBk/Gravacao-e-armazenamento-de-imagens-13.png'
   },
   {
     id: 14,
     title: 'Elementos do controle de acesso',
-    image: '/amostras/amostra-14.png',
+    image: '/amostras/amostra-14.webp',
     fallback: 'https://i.postimg.cc/Nf1XHKyk/Elementos-do-controle-de-acesso-14.png'
   },
   {
     id: 15,
     title: 'Glossário visual de CFTV e alarmes',
-    image: '/amostras/amostra-15.png',
+    image: '/amostras/amostra-15.webp',
     fallback: 'https://i.postimg.cc/wThNm1tk/Glossario-visual-de-CFTV-e-alarmes-15.png'
   }
 ];
@@ -176,11 +176,18 @@ export const RealSamples: React.FC<RealSamplesProps> = ({ onScrollToPlans }) => 
               <img
                 src={item.image}
                 onError={(e) => {
-                  e.currentTarget.src = item.fallback;
+                  if (e.currentTarget.src.endsWith('.webp')) {
+                    e.currentTarget.src = item.image.replace('.webp', '.png');
+                  } else {
+                    e.currentTarget.src = item.fallback;
+                  }
                 }}
                 alt={item.title}
                 className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-300"
                 loading="lazy"
+                decoding="async"
+                width={290}
+                height={406}
               />
             </div>
           </div>

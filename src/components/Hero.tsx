@@ -40,15 +40,26 @@ export const Hero: React.FC<HeroProps> = ({ onScrollToPlans }) => {
           {/* Mockup do Produto Diretamente Abaixo da Headline */}
           <div className="pt-2 pb-4 max-w-3xl mx-auto flex items-center justify-center">
             <div className="relative group">
-              <img 
-                src="/mockup-guias.png" 
-                onError={(e) => {
-                  e.currentTarget.src = "https://i.postimg.cc/KY2Wxk6r/imagem-2026-10-07-215002089.png";
-                }}
-                alt="Mockup dos 120 Guias Visuais para Instaladores de Câmeras e Alarmes" 
-                className="w-full max-w-md sm:max-w-xl md:max-w-2xl h-auto object-contain drop-shadow-2xl group-hover:scale-[1.02] transition-transform duration-300 pointer-events-auto"
-                loading="eager"
-              />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcSet="/mockup-guias-480.webp 480w, /mockup-guias-800.webp 800w, /mockup-guias.webp 1280w"
+                  sizes="(max-width: 640px) 448px, (max-width: 768px) 576px, 672px"
+                />
+                <img 
+                  src="/mockup-guias.webp" 
+                  onError={(e) => {
+                    e.currentTarget.src = "/mockup-guias.png";
+                  }}
+                  alt="Mockup dos 120 Guias Visuais para Instaladores de Câmeras e Alarmes" 
+                  className="w-full max-w-md sm:max-w-xl md:max-w-2xl h-auto object-contain drop-shadow-2xl group-hover:scale-[1.02] transition-transform duration-300 pointer-events-auto"
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
+                  width={1280}
+                  height={960}
+                />
+              </picture>
             </div>
           </div>
 
