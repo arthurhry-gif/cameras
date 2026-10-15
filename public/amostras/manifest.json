@@ -1,0 +1,77 @@
+[
+  {
+    "id": "01",
+    "fullUrl": "https://i.postimg.cc/TYrbDKLX/Visao-geral-de-um-sistema-CFTV-1.png",
+    "filename": "public/amostras/amostra-01.png"
+  },
+  {
+    "id": "02",
+    "fullUrl": "https://i.postimg.cc/02pSwz6X/Camera-IP-partes-e-conceitos-2.png",
+    "filename": "public/amostras/amostra-02.png"
+  },
+  {
+    "id": "03",
+    "fullUrl": "https://i.postimg.cc/kXxSb263/Visao-geral-da-camera-analogica-3.png",
+    "filename": "public/amostras/amostra-03.png"
+  },
+  {
+    "id": "04",
+    "fullUrl": "https://i.postimg.cc/MKyBQncg/DVR-e-NVR-diferencas-essenciais-4.png",
+    "filename": "public/amostras/amostra-04.png"
+  },
+  {
+    "id": "05",
+    "fullUrl": "https://i.postimg.cc/bNQntZDX/Lentes-e-campo-de-visao-5.png",
+    "filename": "public/amostras/amostra-05.png"
+  },
+  {
+    "id": "06",
+    "fullUrl": "https://i.postimg.cc/VLjtCJS3/Guia-visual-cameras-dome-e-bullet-6.png",
+    "filename": "public/amostras/amostra-06.png"
+  },
+  {
+    "id": "07",
+    "fullUrl": "https://i.postimg.cc/SNW9MnXP/Como-o-sensor-PIR-detecta-movimento-7.png",
+    "filename": "public/amostras/amostra-07.png"
+  },
+  {
+    "id": "08",
+    "fullUrl": "https://i.postimg.cc/WbMZkdDK/Contato-magnetico-em-portas-e-janelas-8.png",
+    "filename": "public/amostras/amostra-08.png"
+  },
+  {
+    "id": "09",
+    "fullUrl": "https://i.postimg.cc/pXDjFm90/Central-de-alarme-e-seus-elementos-9.png",
+    "filename": "public/amostras/amostra-09.png"
+  },
+  {
+    "id": "10",
+    "fullUrl": "https://i.postimg.cc/zXnhgyLP/Sirenes-e-sinalizacao-para-sistemas-de-alarme-10.png",
+    "filename": "public/amostras/amostra-10.png"
+  },
+  {
+    "id": "11",
+    "fullUrl": "https://i.postimg.cc/RVctHW3X/Reconhecimento-visual-de-cabos-e-conectores-11.png",
+    "filename": "public/amostras/amostra-11.png"
+  },
+  {
+    "id": "12",
+    "fullUrl": "https://i.postimg.cc/sDpWhMBP/Po-E-dados-e-energia-no-mesmo-cabo-12.png",
+    "filename": "public/amostras/amostra-12.png"
+  },
+  {
+    "id": "13",
+    "fullUrl": "https://i.postimg.cc/Qxp7TFBk/Gravacao-e-armazenamento-de-imagens-13.png",
+    "filename": "public/amostras/amostra-13.png"
+  },
+  {
+    "id": "14",
+    "fullUrl": "https://i.postimg.cc/Nf1XHKyk/Elementos-do-controle-de-acesso-14.png",
+    "filename": "public/amostras/amostra-14.png"
+  },
+  {
+    "id": "15",
+    "fullUrl": "https://i.postimg.cc/wThNm1tk/Glossario-visual-de-CFTV-e-alarmes-15.png",
+    "filename": "public/amostras/amostra-15.png"
+  }
+]

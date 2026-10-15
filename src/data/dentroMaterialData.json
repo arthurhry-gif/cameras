@@ -1,0 +1,205 @@
+[
+  {
+    "id": "01",
+    "title": "Área de interesse e linha virtual",
+    "num": "25",
+    "image": "/dentro-material/item-01.png",
+    "fallback": "https://i.postimg.cc/Nfr9kTXP/Area-de-interesse-e-linha-virtual-25.png"
+  },
+  {
+    "id": "02",
+    "title": "Armazenamento HDD, SSD e cartão",
+    "num": "12",
+    "image": "/dentro-material/item-02.png",
+    "fallback": "https://i.postimg.cc/633T2Gw3/Armazenamento-HDD-SSD-e-cartao-12.png"
+  },
+  {
+    "id": "03",
+    "title": "Áudio em câmeras, microfone e captação",
+    "num": "03",
+    "image": "/dentro-material/item-03.png",
+    "fallback": "https://i.postimg.cc/FRR1dJmk/Audio-em-cameras-microfone-e-captacao-3.png"
+  },
+  {
+    "id": "04",
+    "title": "Banda Ethernet e taxa de transmissão",
+    "num": "09",
+    "image": "/dentro-material/item-04.png",
+    "fallback": "https://i.postimg.cc/2663bBmG/Banda-Ethernet-e-largura-de-banda-9.png"
+  },
+  {
+    "id": "05",
+    "title": "Bateria de backup: função e limites",
+    "num": "18",
+    "image": "/dentro-material/item-05.png",
+    "fallback": "https://i.postimg.cc/FRBzjssy/Bateria-de-backup-funcao-e-limites-18.png"
+  },
+  {
+    "id": "06",
+    "title": "Botão de pânico e acionadores",
+    "num": "17",
+    "image": "/dentro-material/item-06.png",
+    "fallback": "https://i.postimg.cc/ydbxFYYj/Botao-de-panico-e-acionadores-17.png"
+  },
+  {
+    "id": "07",
+    "title": "Caixa de passagem e conexões organizadas",
+    "num": "26",
+    "image": "/dentro-material/item-07.png",
+    "fallback": "https://i.postimg.cc/sDZQ4SWD/Caixa-de-passagem-e-conexoes-organizadas-26.png"
+  },
+  {
+    "id": "08",
+    "title": "Checklist visual: reconheça o equipamento",
+    "num": "30",
+    "image": "/dentro-material/item-08.png",
+    "fallback": "https://i.postimg.cc/T3VKZ6CG/Checklist-visual-reconheca-o-equipamento-30.png"
+  },
+  {
+    "id": "09",
+    "title": "Como diferenciar BNC, RJ45 e bornes",
+    "num": "27",
+    "image": "/dentro-material/item-09.png",
+    "fallback": "https://i.postimg.cc/5NFYSvzK/Como-diferenciar-BNC-RJ45-e-bornes-27.png"
+  },
+  {
+    "id": "10",
+    "title": "Detecção de movimento: vídeo e análise",
+    "num": "24",
+    "image": "/dentro-material/item-10.png",
+    "fallback": "https://i.postimg.cc/52BXZVn8/Deteccao-de-movimento-video-e-analise-24.png"
+  },
+  {
+    "id": "11",
+    "title": "DVR: canais, entradas e compatibilidade",
+    "num": "07",
+    "image": "/dentro-material/item-11.png",
+    "fallback": "https://i.postimg.cc/7Z35pkmz/DVR-canais-entradas-e-compatibilidade-7.png"
+  },
+  {
+    "id": "12",
+    "title": "Endereço IP na rede de câmeras",
+    "num": "22",
+    "image": "/dentro-material/item-12.png",
+    "fallback": "https://i.postimg.cc/DwrStTB0/Endereco-IP-na-rede-de-cameras-22.png"
+  },
+  {
+    "id": "13",
+    "title": "Entenda o grau de proteção IP",
+    "num": "05",
+    "image": "/dentro-material/item-13.png",
+    "fallback": "https://i.postimg.cc/xC48KTTg/Entenda-o-grau-de-protecao-IP-5.png"
+  },
+  {
+    "id": "14",
+    "title": "Fonte de alimentação: identificação",
+    "num": "19",
+    "image": "/dentro-material/item-14.png",
+    "fallback": "https://i.postimg.cc/6QB8Kmmg/Fonte-de-alimentacao-identificacao-conceitual-19.png"
+  },
+  {
+    "id": "15",
+    "title": "FPS e fluidez do vídeo",
+    "num": "11",
+    "image": "/dentro-material/item-15.png",
+    "fallback": "https://i.postimg.cc/tgDY4NKv/FPS-e-fluidez-do-video-11.png"
+  },
+  {
+    "id": "16",
+    "title": "Guia de câmeras fixas e PTZ",
+    "num": "04",
+    "image": "/dentro-material/item-16.png",
+    "fallback": "https://i.postimg.cc/vBNTWHHq/Guia-de-cameras-fixas-e-PTZ-4.png"
+  },
+  {
+    "id": "17",
+    "title": "H.264, H.265 e compressão de vídeo",
+    "num": "10",
+    "image": "/dentro-material/item-17.png",
+    "fallback": "https://i.postimg.cc/26Ky488P/H-264-H-265-e-compressao-de-video-10.png"
+  },
+  {
+    "id": "18",
+    "title": "Iluminação, contraluz e WDR",
+    "num": "06",
+    "image": "/dentro-material/item-18.png",
+    "fallback": "https://i.postimg.cc/C5n1JTz2/Iluminacao-contraluz-e-WDR-explicados-6.png"
+  },
+  {
+    "id": "19",
+    "title": "Interfone, vídeo porteiro e CFTV",
+    "num": "28",
+    "image": "/dentro-material/item-19.png",
+    "fallback": "https://i.postimg.cc/YqmGzgFn/Interfone-video-porteiro-e-CFTV-28.png"
+  },
+  {
+    "id": "20",
+    "title": "NVR: câmeras IP e recursos",
+    "num": "08",
+    "image": "/dentro-material/item-20.png",
+    "fallback": "https://i.postimg.cc/VN4dkWxH/NVR-cameras-IP-e-recursos-8.png"
+  },
+  {
+    "id": "21",
+    "title": "ONVIF e compatibilidade entre marcas",
+    "num": "23",
+    "image": "/dentro-material/item-21.png",
+    "fallback": "https://i.postimg.cc/3w9dxFsc/ONVIF-e-compatibilidade-entre-marcas-23.png"
+  },
+  {
+    "id": "22",
+    "title": "Privacidade e uso responsável",
+    "num": "29",
+    "image": "/dentro-material/item-22.png",
+    "fallback": "https://i.postimg.cc/YqmGzgFX/Privacidade-e-uso-responsavel-de-cameras-29.png"
+  },
+  {
+    "id": "23",
+    "title": "Repetidor e alcance do sinal",
+    "num": "16",
+    "image": "/dentro-material/item-23.png",
+    "fallback": "https://i.postimg.cc/fySL5nJF/Repetidor-e-alcance-do-sinal-16.png"
+  },
+  {
+    "id": "24",
+    "title": "Roteador e rede local no CFTV",
+    "num": "21",
+    "image": "/dentro-material/item-24.png",
+    "fallback": "https://i.postimg.cc/pdkpLBNN/Roteador-e-rede-local-no-CFTV-21.png"
+  },
+  {
+    "id": "25",
+    "title": "Sensores com fio e sem fio",
+    "num": "15",
+    "image": "/dentro-material/item-25.png",
+    "fallback": "https://i.postimg.cc/MHfTt2nk/Sensores-com-fio-e-sem-fio-15.png"
+  },
+  {
+    "id": "26",
+    "title": "Switch de rede, portas PoE e tráfego",
+    "num": "20",
+    "image": "/dentro-material/item-26.png",
+    "fallback": "https://i.postimg.cc/sXX1QZyg/Switch-de-rede-portas-Po-E-e-trafego-20.png"
+  },
+  {
+    "id": "27",
+    "title": "Tipos de sensor de alarme",
+    "num": "13",
+    "image": "/dentro-material/item-27.png",
+    "fallback": "https://i.postimg.cc/T15wQMKM/Tipos-de-sensor-de-alarme-13.png"
+  },
+  {
+    "id": "28",
+    "title": "Visão noturna e iluminação",
+    "num": "02",
+    "image": "/dentro-material/item-28.png",
+    "fallback": "https://i.postimg.cc/QttV9WsF/Visao-noturna-e-iluminacao-2.png"
+  },
+  {
+    "id": "29",
+    "title": "Zonas e setores da central",
+    "num": "14",
+    "image": "/dentro-material/item-29.png",
+    "fallback": "https://i.postimg.cc/NF2MbqKj/Zonas-e-setores-da-central-14.png"
+  }
+]
